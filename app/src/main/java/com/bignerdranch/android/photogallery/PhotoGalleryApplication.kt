@@ -20,5 +20,6 @@ class PhotoGalleryApplication : Application() {
                 getSystemService(NotificationManager::class.java)
             notificationManager.createNotificationChannel(channel)
         }
+
     }
 }
